@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.secondary-text {
+  color: hsl(241, 100%, 89%);
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100vh;
+  font-size: 1.8rem;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  justify-content: space-between;
+  gap: 40px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 25px 25px hsl(240, 100%, 94%);
+  max-width: 650px;
+  padding-inline-end: 30px;
+}
+
+.result {
+  padding: 50px;
+  flex-direction: column;
+  gap: 20px;
+  background-image: linear-gradient(
+    to top right,
+    hsl(241, 81%, 54%),
+    hsl(252, 100%, 67%)
+  );
+  color: hsl(0, 0%, 100%);
+  border-radius: inherit;
+  flex-basis: 320px;
+  text-align: center;
+}
+
+.circle {
+  flex-direction: column;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 150px;
+  height: 150px;
+}
+
+.result > p {
+  font-size: 1.6rem;
+}
+
+.summary {
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 50%;
+  gap: 30px;
+  justify-content: center;
+}
+
+.marks {
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+span {
+  color: hsl(224, 30%, 50%);
+}
+
+button {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 1.8rem;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(224, 30%, 27%),
+    hsl(224, 30%, 27%)
+  );
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  width: 100%;
+  border-radius: 25px;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  transition: "background-image" 0.5s ease-in-out;
+}
+
+button:hover {
+  background-image: linear-gradient(
+    to top,
+    hsl(241, 81%, 54%),
+    hsl(252, 100%, 67%)
+  );
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.box:nth-child(1) {
+  background-color: hsl(0, 100%, 95%);
+}
+
+.box:nth-child(2) {
+  background-color: hsl(39, 100%, 95%);
+}
+
+.box:nth-child(3) {
+  background-color: hsl(166, 100%, 95%);
+}
+
+.box:nth-child(4) {
+  background-color: hsl(234, 85%, 95%);
+}
+
+#reaction > .icon-title > h4 {
+  color: hsl(0, 100%, 67%);
+}
+
+#memory > .icon-title > h4 {
+  color: hsl(39, 100%, 56%);
+}
+
+#verbal > .icon-title > h4 {
+  color: hsl(166, 100%, 37%);
+}
+
+#visual > .icon-title > h4 {
+  color: hsl(234, 85%, 45%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 30px;
+}
+
+@media (max-width: 570px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+    height: max-content;
+    min-width: 276px;
+  }
+  .summary {
+    width: 90%;
+  }
+  button {
+    margin-block-end: 15px;
+  }
+  .attribution {
+    display: none;
+  }
+}
