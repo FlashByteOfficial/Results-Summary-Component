@@ -170,6 +170,7 @@ button:hover {
     margin: 10px;
     height: max-content;
     min-width: 276px;
+    height: 120dvh;
   }
   .summary {
     width: 90%;
@@ -177,7 +178,7 @@ button:hover {
   button {
     margin-block-end: 15px;
   }
-/*   .attribution {
+  .attribution {
     display: none;
-  } */
+  }
 }
