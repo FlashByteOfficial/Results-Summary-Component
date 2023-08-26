@@ -34,6 +34,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 25px 25px hsl(240, 100%, 94%);
   max-width: 650px;
+  min-width: 340px;
   padding-inline-end: 30px;
 }
 
