@@ -168,7 +168,6 @@ button:hover {
   .container {
     flex-direction: column;
     padding: 0;
-    margin: 10px;
     min-width: 276px;
     margin: 2rem;
   }
