@@ -170,6 +170,7 @@ button:hover {
     padding: 0;
     margin: 10px;
     min-width: 276px;
+    margin: 2rem;
   }
 
   .result{
