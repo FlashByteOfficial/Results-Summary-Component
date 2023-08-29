@@ -30,7 +30,7 @@ body {
 .container {
   justify-content: space-between;
   gap: 40px;
-  border-radius: 20px;
+  border-radius: 2rem;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 25px 25px hsl(240, 100%, 94%);
   max-width: 650px;
@@ -173,6 +173,7 @@ button:hover {
     flex-direction: column;
     padding: 0;
     min-width: 280px;
+    border-radius: 0 0 2rem 2rem;
   }
 
   .result{
