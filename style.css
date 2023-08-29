@@ -173,7 +173,6 @@ button:hover {
     flex-direction: column;
     padding: 0;
     min-width: 280px;
-    margin: 1rem;
   }
 
   .result{
